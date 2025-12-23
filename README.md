@@ -92,7 +92,7 @@ import { LighthouseScore, LighthouseWidgetProps } from '@mrno/lighthouse-widget'
 
 ## 📄 License
 
-MIT © Your Name
+MIT © Ante Penava
 
 ## 🤝 Contributing
 

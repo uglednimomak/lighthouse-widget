@@ -2,6 +2,7 @@
   "name": "@mrno/lighthouse-widget",
   "version": "1.0.0",
   "description": "A beautiful cyberpunk-styled Lighthouse metrics widget for React apps",
+  "author": "Ante Penava",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -9,6 +10,9 @@
     "dist",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -23,7 +27,6 @@
     "metrics",
     "cyberpunk"
   ],
-  "author": "Ante Penava",
   "license": "MIT",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
@@ -45,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uglednigospodin/lighthouse-widget"
+    "url": "https://github.com/uglednigospodin/lighthouse-widget.git"
   }
 }
